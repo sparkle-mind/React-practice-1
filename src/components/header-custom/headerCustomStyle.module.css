@@ -1,0 +1,52 @@
+.headerCustomWrp {
+    padding: 20px 0;
+    background-color: #fff;
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.headerCustomWrp .navRow .navColIn input {
+    background-image: url("../../../public/images/loupe.png");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 7px center;
+    padding: 0.375rem 35px;
+}
+
+.headerCustomWrp .navRow .navColIn input:focus {
+    box-shadow: unset;
+}
+
+.navColRight {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.navColRight li {
+    width: 35px;
+    height: 35px;
+}
+
+.navColRight li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.navColRight li a {
+    display: block;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.navColRight li a:hover {
+    transform: translateY(-1px);
+}
+.navColRight li a img,
+.navColRight li a svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}

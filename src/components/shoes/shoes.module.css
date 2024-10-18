@@ -1,0 +1,43 @@
+.shoesSection {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+/* ------ tags are use globally , its not follow module.style bcz its simple tag ... */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.shoesSection ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.shoesSection ul li {
+    width: 20%;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 12px;
+}
+
+.shoesListImg {
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+
+.shoesSection ul li img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: scale-down;
+    background-blend-mode: multiply;
+}
+.shoesSection h1{
+font-family: "Yatra One";
+}

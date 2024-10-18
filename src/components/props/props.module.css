@@ -1,0 +1,90 @@
+.employeeDataSection {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    max-width: 950px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.employeeDataSection>h2 {
+    color: #333;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.employeeDataSection ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.employeeDataSection li {
+    width: calc(50% - 30px);
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.employeeDataSection li:hover {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+
+.employeeDataSection .emplImg {
+    margin-right: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+.employeeDataSection .emplImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* Circular image */
+    object-fit: cover;
+}
+
+.employeeDataSection .emplCont {
+    flex-grow: 1;
+    /* Allows this section to take up remaining space */
+}
+
+.employeeDataSection .emplCont h2 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #444649;
+    /* Bootstrap primary color */
+}
+
+.employeeDataSection .emplCont p {
+    margin: 2px 0;
+    color: #292929;
+    font-size: 14px;
+}
+
+.employeeDataSection .emplCont span {
+    font-weight: bold;
+    font-size: 16px;
+
+    color: #28a745;
+    /* Bootstrap success color */
+}
+
+.left {
+    display: flex;
+    flex: 1;
+}
+.right{
+    align-self: flex-start;
+}

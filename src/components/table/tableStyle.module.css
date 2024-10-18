@@ -1,0 +1,50 @@
+.tableRow {
+    margin: 35px 0;
+}
+
+.tableHeading {
+    margin: 15px;
+
+}
+
+.tableHeading h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.mainTable td {
+    white-space: nowrap;
+}
+
+.tHead tr th {
+    background-color: #dbdbdb;
+    border: unset;
+    padding: 10px 25px;
+    white-space: nowrap;
+
+}
+
+.tHead tr th:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.tHead tr th:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+.tableColIn {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.mainTable tbody tr td {
+    background-color: #fff;
+    transition: all 0.2s;
+    padding: 8px 25px;
+    white-space: nowrap;
+}
+
+.mainTable tbody tr:hover td {
+    background-color: rgb(216 216 216 / 29%);
+
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac3315cd.css",
+    "main.js": "/static/js/main.5125c74b.js",
+    "static/media/YatraOne-Regular.svg": "/static/media/YatraOne-Regular.64a67154dab4c4543690.svg",
+    "static/media/YatraOne-Regular.eot": "/static/media/YatraOne-Regular.d9df5ed45901b2577792.eot",
+    "static/media/YatraOne-Regular.ttf": "/static/media/YatraOne-Regular.3125551160223688dbd7.ttf",
+    "static/media/YatraOne-Regular.woff": "/static/media/YatraOne-Regular.e35ba1493e55e8a70ff3.woff",
+    "static/media/YatraOne-Regular.woff2": "/static/media/YatraOne-Regular.6529d446b9184263ff54.woff2",
+    "index.html": "/index.html",
+    "main.ac3315cd.css.map": "/static/css/main.ac3315cd.css.map",
+    "main.5125c74b.js.map": "/static/js/main.5125c74b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac3315cd.css",
+    "static/js/main.5125c74b.js"
+  ]
+}

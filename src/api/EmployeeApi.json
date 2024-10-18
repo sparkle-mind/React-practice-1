@@ -1,0 +1,50 @@
+[
+    {
+       "id":1,
+       "name":"Alice Johnson",
+       "salary":70000,
+       "position":"Software Engineer",
+       "employeeImg":"https://cdn.pixabay.com/photo/2023/06/10/07/18/business-8053376_640.jpg"
+    },
+    {
+       "id":2,
+       "name":"Bob Smith",
+       "salary":60000,
+       "position":"Product Manager",
+       "employeeImg":"https://cdn.pixabay.com/photo/2023/06/10/18/09/business-8054608_640.jpg"
+
+       
+    },
+    {
+       "id":3,
+       "name":"Charlie Brown",
+       "salary":55000,
+       "position":"Designer",
+       "employeeImg":"https://cdn.pixabay.com/photo/2023/06/09/08/25/ai-generated-8051239_640.jpg"
+
+    },
+    {
+       "id":4,
+       "name":"David Wilson",
+       "salary":75000,
+       "position":"Data Scientist",
+       "employeeImg":"https://cdn.pixabay.com/photo/2021/03/11/06/34/man-6086273_640.jpg"
+
+    },
+    {
+       "id":5,
+       "name":"Eva Green",
+       "salary":62000,
+       "position":"UX/UI Designer",
+       "employeeImg":"https://cdn.pixabay.com/photo/2021/03/10/16/39/woman-6084994_640.jpg"
+
+    },
+    {
+       "id":6,
+       "name":"Frank Miller",
+       "salary":58000,
+       "position":"Marketing Specialist",
+       "employeeImg":"https://cdn.pixabay.com/photo/2024/10/09/08/35/ai-generated-9107193_640.jpg"
+
+    }
+ ]

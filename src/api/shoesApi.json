@@ -1,0 +1,79 @@
+[
+  {
+    "name": "puma",
+    "id": "puma",
+    "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUsS8UQ71aUaNIwJV73kF1HjLhkYALgKCy_g&s",
+    "rating": "9.9",
+    "description": "A stylish and comfortable running shoe designed for long-distance runners.",
+    "brand": "puma",
+    "category": ["Sports", "Running"],
+    "price": "$120",
+    "buy_url": "https://www.example.com/lovely-runner"
+  },
+  {
+    "name": "nike",
+    "id": "nike",
+    "img_url": "https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_640.jpg",
+    "rating": "8.7",
+    "description": "Casual sneakers with a modern design, perfect for everyday wear.",
+    "brand": "nike",
+    "category": ["Casual", "Sneakers"],
+    "price": "$85",
+    "buy_url": "https://www.example.com/stranger-steps"
+  },
+  {
+    "name": "campus",
+    "id": "campus",
+    "img_url": "https://img.tatacliq.com/images/i17//437Wx649H/MP000000008351680_437Wx649H_202405170743251.jpeg",
+    "rating": "8.2",
+    "description": "Durable and rugged boots designed for outdoor adventures and rough terrains.",
+    "brand": "Witcher",
+    "category": ["Outdoor", "Boots"],
+    "price": "$150",
+    "buy_url": "https://www.example.com/witcher-boots"
+  },
+  {
+    "name": "Adidas",
+    "id": "Adidas",
+    "img_url": "https://cdn.pixabay.com/photo/2017/07/25/12/57/blue-2537963_640.jpg",
+    "rating": "8.3",
+    "description": "Trendy sneakers with a unique design, ideal for making a statement.",
+    "brand": "Adidas",
+    "category": ["Fashion", "Sneakers"],
+    "price": "$95",
+    "buy_url": "https://www.example.com/money-heist-sneakers"
+  },
+  {
+    "name": "Bata",
+    "id": "Bata",
+    "img_url": "https://m.media-amazon.com/images/I/71rYxtbE8SS._AC_UY1000_.jpg",
+    "rating": "8.6",
+    "description": "Elegant and sophisticated shoes for formal occasions and special events.",
+    "brand": "Bata",
+    "category": ["Formal", "Dress Shoes"],
+    "price": "$200",
+    "buy_url": "https://www.example.com/crown-collection"
+  },
+  {
+    "name": "Woodland",
+    "id": "Woodland",
+    "img_url": "https://assets.woodlandworldwide.app/compressed/images/FGC015050201A/BLACK/FGC015050201A_004_0.jpg",
+    "rating": "8.1",
+    "description": "Comfortable and stylish slides perfect for lounging and casual outings.",
+    "brand": "Woodland",
+    "category": ["Casual", "Slides"],
+    "price": "$45",
+    "buy_url": "https://www.example.com/squid-game-slides"
+  },
+  {
+    "name": "Skechers",
+    "id": "Skechers",
+    "img_url": "https://assetscdn1.paytm.com/images/catalog/product/F/FO/FOOSKECHERS-MESSHOE749803BDE66F2/1564579846752_0..jpg",
+    "rating": "N/A",
+    "description": "Delicate and graceful flats that offer comfort and elegance for everyday wear.",
+    "brand": "Skechers",
+    "category": ["Casual", "Flats"],
+    "price": "$60",
+    "buy_url": "https://www.example.com/queen-of-tears-flats"
+  }
+]
