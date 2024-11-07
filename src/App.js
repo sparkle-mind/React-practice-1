@@ -4,16 +4,18 @@ import Props from "./components/props/Props";
 import DashboardPage from "./pages/dashbord/DashboardPage";
 import Netflix from './components/netflix/Netflix';
 import Shoes from './components/shoes/Shoes';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TableCompo from "./components/table/TableCompo";
 import NoPage from "./pages/dashbord/NoPage";
 import Propagation from "./components/propagation/Propagation";
+import DerivedState from "./components/derived-state/DerivedState";
+import { Tabbings } from "./components/tabs/Tabbings";
 
 function App() {
   return (
     <>
       <div className="main-wrp">
-        <BrowserRouter>
+        <Router>
           <Routes>
             <Route path="/" element={<DashboardPage />}>
               <Route index element={<TableCompo />} />
@@ -22,10 +24,12 @@ function App() {
               <Route path="props" element={<Props />} />
               <Route path="useStateMethod" element={<UseStateMethod />} />
               <Route path="propagation" element={<Propagation />} />
+              <Route path="derived-state" element={<DerivedState />} />
+              <Route path="tabs" element={<Tabbings />} />
               <Route path="*" element={<NoPage />} />
             </Route>
           </Routes>
-        </BrowserRouter>
+        </Router>
       </div>
 
 

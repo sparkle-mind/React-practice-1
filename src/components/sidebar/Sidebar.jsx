@@ -56,6 +56,23 @@ const Sidebar = () => {
                 <span>propagation</span>
               </Link>
             </li>
+            <li className={sidebarStyle.sidebarListNav}>
+              <Link to="/derived-state" >
+                <div className={sidebarStyle.navIcn}>
+                  <img src="/images/home.png" alt="home.png" />
+                </div>
+                <span>DerivedState</span>
+              </Link>
+            </li>
+            <li className={sidebarStyle.sidebarListNav}>
+              <Link to="/tabs" >
+                <div className={sidebarStyle.navIcn}>
+                  <img src="/images/home.png" alt="home.png" />
+                </div>
+                <span>Tabs</span>
+              </Link>
+            </li>
+            
           </ul>
           <div className={sidebarStyle.sidebarBtn}>
 

@@ -9,7 +9,7 @@ const Propagation = () => {
 
     function child(e) {
         console.log("Child called");
-        e.stopPropagation(); // now it only trigger currunt element not with its parent element
+        e.stopPropagation(); // now it only trigger currunt element not with its parent element.. propagation mmeans move forward..
     }
 
 
